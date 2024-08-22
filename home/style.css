@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif !important;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 11vh;
+    background-color: #0a1c58;
+}
+
+.container-main{
+    width: 100%;
+    height: 65vh;
+    background-color: #2c2c2c;
+}
+
+.container-sec{
+    width: 100%;
+    height: 75vh;
+}
+.container-third{
+    width: 100%;
+    height: 75vh;
+    background: #0a1c58;
+}
+
+.container-four{
+    width: 100%;
+    height: 37vh;
+    background-color: #0a1c58 !important;
+}
+
+.container-five{
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+}
+
+.container-six{
+    width: 100%;
+    height: 20vh;
+    background-color: #0a1c58;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.container-seven{
+    width: 100%;
+    height: 65vh;
+    background-color: #fff;
+}
+
+.container-eight{
+    width: 100%;
+    height: 25vh;
+    background-color: #dbd5d5;
+}
+
+.container-nine{
+    width: 100%;
+    height: 40vh;
+    background-color: #2c2c2c;
+}
+
+.container-ten{
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+}
+
+.planContent{
+    width: 28rem;
+    height: 57vh;
+    background-color: rgb(238, 232, 232);
+}
+
+.planContentTwo{
+    width: 28rem;
+    height: 66vh;
+    background-color: rgb(238, 232, 232);
+}
+
+.planText{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.avatImg{
+    width: 10rem;
+    height: 10rem;
+}
+
+.logoImg{
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 7rem;
+}
+
+.cardContent{
+    width: 40%;
+    height: 40vh;
+    background-color: #0a1c58;
+}
+
+.cardContentTwo{
+    width: 40%;
+    height: 40vh;
+    background-color: #c52a2a;
+    margin-left: 2rem;
+    padding: 2rem;
+    color: white;
+}
+
+
+.marks{
+    display: flex;
+    flex-direction: column;
+}
+
+.secBox{
+    background-color: rgb(173, 31, 31) !important;
+    width: 100%;
+    height: 37vh;
+}
+
+.firstBox{
+    background-color: #152e81 !important;
+
+}
+
+.secMain{
+    text-align: center;
+}
+
+.icons{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    border-radius: 0px !important;
+    width: 12rem !important;
+    height: 3rem !important;
+}
+
+.secBtn{
+    margin-left: 2rem;
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+.secBtn:hover{
+    transition: 0.5s ease;
+    background-color: rgb(30, 30, 173) !important;
+}
+
+.btn-danger{
+    background-color: #c52a2a !important;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.colMA{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homePage{
+    font-weight: 500;
+    
+}
+
+.wrote{
+    margin-left: 0.5rem;
+}
+
+.firstMission{
+    margin-top: 7rem;
+    margin-left: 6rem;
+}
+
+.secMission{
+    margin-left: 6rem;
+}
+
+.ata{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    width: 15rem;
+}
+
+.social-media{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.kapioto{
+    
+    font-weight: bolder;
+}
+
+
+@media (min-width: 1400px){
+    .container{
+        min-width: 1600px;
+    }
+}
